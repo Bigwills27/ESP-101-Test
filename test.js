@@ -97,7 +97,7 @@ fetch("data.json")
       });
 
       // whenyou reach the design number
-      if (current.textContent === "3") {
+      if (current.textContent === "30") {
         nextBtn.style.transform = "translateX(1000px)";
         localStorage.setItem("NumPassed", `${correctAns}`);
         window.location.href = "./score.html";
